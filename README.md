@@ -27,8 +27,8 @@ The Inventory Management System offers a flexible and efficient method for manag
 ### Clone the Repository
 
 ```bash
-git clone <repo-url>
-cd <repo-name>
+git clone git@github.com:crisecheguren/InventoryManagementSystem.git
+cd InventoryManagementSystem
 ```
 
 ### Deploy the Services:
@@ -87,7 +87,9 @@ I've also created a Postman collection that can be found here: [![Run in Postman
 ## List all products
 
 **Endpoint**: `/products`
+
 **Request Type**: `GET`
+
 **Description**: Returns a list of all products in the inventory.
 
 **Sample Output**:
@@ -124,7 +126,9 @@ I've also created a Postman collection that can be found here: [![Run in Postman
 ## Fetch a specific product
 
 **Endpoint**: `/products/{product_id}`
+
 **Request Type**: `GET`
+
 **Description**: Returns a specific product using the ProductID provided.
 
 ***Sample Request***: `/products/1`
@@ -145,7 +149,9 @@ I've also created a Postman collection that can be found here: [![Run in Postman
 ## Get analytics for products
 
 **Endpoint**: `/products/analytics`
+
 **Request Type**: `GET`
+
 **Description**: Returns aggregated data for products grouped by category and information about the least and most stocked product.
 
 **Sample Output**:
@@ -194,7 +200,9 @@ I've also created a Postman collection that can be found here: [![Run in Postman
 ## Search for products
 
 **Endpoint**: `/products/search`
+
 **Request Type**: `GET`
+
 **Description**: Returns a list of products that match the search query.
 
 **Sample Query**:
@@ -235,7 +243,9 @@ http://localhost:5000/products/search?q=electronics
 ## Add a new product
 
 **Endpoint**: `/products`
+
 **Request Type**: `POST`
+
 **Description**: Adds a new product to the inventory.
 
 **Sample Request**:
@@ -262,7 +272,9 @@ http://localhost:5000/products/search?q=electronics
 ## Update a product
 
 **Endpoint**: `/products/{product_id}`
+
 **Request Type**: `PUT`
+
 **Description**: Updates a product in the inventory.
 
 **Sample Request**:
@@ -288,7 +300,9 @@ http://localhost:5000/products/search?q=electronics
 ## Delete a product
 
 **Endpoint**: `/products/{product_id}`
+
 **Request Type**: `DELETE`
+
 **Description**: Deletes a product from the inventory.
 
 **Sample Output**:
