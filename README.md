@@ -56,9 +56,9 @@ The CLI offers the following commands:
 
 - `add-product`: Adds a new product to the inventory.
 - `delete-product`: Deletes a product from the inventory.
-- `get-product`: Get a product by its ID.
+- `get-product`: Gets a product by its ID.
 - `list-products`: Lists all products.
-- `search-products`:  Search products based on a query.
+- `search-products`:  Searches products based on a query.
 - `update-product`: Updates an existing product in the inventory.
 - `view-analytics`: Displays aggregated product data.
 
@@ -84,9 +84,9 @@ python cli.py add-product --help
 
 I've also created a Postman collection that can be found here: [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/18806958-ba8e58d1-5514-4bd4-9734-6b27e8d43123?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D18806958-ba8e58d1-5514-4bd4-9734-6b27e8d43123%26entityType%3Dcollection%26workspaceId%3D17b8983f-089d-4ca1-a388-7f888f772367)
 
-### API Endpoint Documentation
+## API Endpoint Documentation
 
-## List all products
+### List all products
 
 **Endpoint**: `/products`
 
@@ -125,7 +125,7 @@ I've also created a Postman collection that can be found here: [![Run in Postman
 ]
 ```
 
-## Fetch a specific product
+### Fetch a specific product
 
 **Endpoint**: `/products/{product_id}`
 
@@ -148,7 +148,7 @@ I've also created a Postman collection that can be found here: [![Run in Postman
 }
 ```
 
-## Get analytics for products
+### Get analytics for products
 
 **Endpoint**: `/products/analytics`
 
@@ -199,7 +199,7 @@ I've also created a Postman collection that can be found here: [![Run in Postman
 ]
 ```
 
-## Search for products
+### Search for products
 
 **Endpoint**: `/products/search`
 
@@ -242,7 +242,7 @@ http://localhost:5000/products/search?q=electronics
 ]
 ```
 
-## Add a new product
+### Add a new product
 
 **Endpoint**: `/products`
 
@@ -271,7 +271,7 @@ http://localhost:5000/products/search?q=electronics
 }
 ```
 
-## Update a product
+### Update a product
 
 **Endpoint**: `/products/{product_id}`
 
@@ -299,7 +299,7 @@ http://localhost:5000/products/search?q=electronics
 }
 ```
 
-## Delete a product
+### Delete a product
 
 **Endpoint**: `/products/{product_id}`
 
