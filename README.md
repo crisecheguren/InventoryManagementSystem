@@ -28,6 +28,7 @@ The Inventory Management System offers a flexible and efficient method for manag
 
 ```bash
 git clone git@github.com:crisecheguren/InventoryManagementSystem.git
+
 cd InventoryManagementSystem
 ```
 
@@ -45,6 +46,7 @@ To use the CLI, run the following commands from the project directory:
 ```bash
 pip install -r cli-requirements.txt
 ```
+
 
 ```bash
 python cli.py
@@ -131,7 +133,7 @@ I've also created a Postman collection that can be found here: [![Run in Postman
 
 **Description**: Returns a specific product using the ProductID provided.
 
-***Sample Request***: `/products/1`
+**Sample Request**: `/products/1`
 
 **Sample Output**:
 
