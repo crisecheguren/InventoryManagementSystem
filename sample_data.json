@@ -1,0 +1,212 @@
+[
+    {
+        "ProductID": "1",
+        "ProductName": "Laptop",
+        "ProductCategory": "Electronics",
+        "Price": 1572,
+        "AvailableQuantity": 499
+    },
+    {
+        "ProductID": "2",
+        "ProductName": "Smartphone",
+        "ProductCategory": "Electronics",
+        "Price": 762,
+        "AvailableQuantity": 351
+    },
+    {
+        "ProductID": "3",
+        "ProductName": "Headphones",
+        "ProductCategory": "Electronics",
+        "Price": 83,
+        "AvailableQuantity": 89
+    },
+    {
+        "ProductID": "4",
+        "ProductName": "TV",
+        "ProductCategory": "Electronics",
+        "Price": 877,
+        "AvailableQuantity": 20
+    },
+    {
+        "ProductID": "5",
+        "ProductName": "Smartwatch",
+        "ProductCategory": "Electronics",
+        "Price": 446,
+        "AvailableQuantity": 384
+    },
+    {
+        "ProductID": "6",
+        "ProductName": "Chair",
+        "ProductCategory": "Furniture",
+        "Price": 397,
+        "AvailableQuantity": 166
+    },
+    {
+        "ProductID": "7",
+        "ProductName": "Table",
+        "ProductCategory": "Furniture",
+        "Price": 852,
+        "AvailableQuantity": 207
+    },
+    {
+        "ProductID": "8",
+        "ProductName": "Sofa",
+        "ProductCategory": "Furniture",
+        "Price": 773,
+        "AvailableQuantity": 487
+    },
+    {
+        "ProductID": "9",
+        "ProductName": "Desk",
+        "ProductCategory": "Furniture",
+        "Price": 347,
+        "AvailableQuantity": 120
+    },
+    {
+        "ProductID": "10",
+        "ProductName": "Bookshelf",
+        "ProductCategory": "Furniture",
+        "Price": 308,
+        "AvailableQuantity": 370
+    },
+    {
+        "ProductID": "11",
+        "ProductName": "T-shirt",
+        "ProductCategory": "Apparel",
+        "Price": 39,
+        "AvailableQuantity": 190
+    },
+    {
+        "ProductID": "12",
+        "ProductName": "Jeans",
+        "ProductCategory": "Apparel",
+        "Price": 49,
+        "AvailableQuantity": 401
+    },
+    {
+        "ProductID": "13",
+        "ProductName": "Jacket",
+        "ProductCategory": "Apparel",
+        "Price": 135,
+        "AvailableQuantity": 390
+    },
+    {
+        "ProductID": "14",
+        "ProductName": "Socks",
+        "ProductCategory": "Apparel",
+        "Price": 11,
+        "AvailableQuantity": 254
+    },
+    {
+        "ProductID": "15",
+        "ProductName": "Hat",
+        "ProductCategory": "Apparel",
+        "Price": 21,
+        "AvailableQuantity": 276
+    },
+    {
+        "ProductID": "16",
+        "ProductName": "Refrigerator",
+        "ProductCategory": "Appliances",
+        "Price": 1213,
+        "AvailableQuantity": 48
+    },
+    {
+        "ProductID": "17",
+        "ProductName": "Microwave",
+        "ProductCategory": "Appliances",
+        "Price": 146,
+        "AvailableQuantity": 400
+    },
+    {
+        "ProductID": "18",
+        "ProductName": "Washing Machine",
+        "ProductCategory": "Appliances",
+        "Price": 724,
+        "AvailableQuantity": 275
+    },
+    {
+        "ProductID": "19",
+        "ProductName": "Oven",
+        "ProductCategory": "Appliances",
+        "Price": 589,
+        "AvailableQuantity": 27
+    },
+    {
+        "ProductID": "20",
+        "ProductName": "Toaster",
+        "ProductCategory": "Appliances",
+        "Price": 54,
+        "AvailableQuantity": 375
+    },
+    {
+        "ProductID": "21",
+        "ProductName": "Novel",
+        "ProductCategory": "Books",
+        "Price": 11,
+        "AvailableQuantity": 129
+    },
+    {
+        "ProductID": "22",
+        "ProductName": "Magazine",
+        "ProductCategory": "Books",
+        "Price": 19,
+        "AvailableQuantity": 64
+    },
+    {
+        "ProductID": "23",
+        "ProductName": "Textbook",
+        "ProductCategory": "Books",
+        "Price": 50,
+        "AvailableQuantity": 162
+    },
+    {
+        "ProductID": "24",
+        "ProductName": "Cookbook",
+        "ProductCategory": "Books",
+        "Price": 16,
+        "AvailableQuantity": 455
+    },
+    {
+        "ProductID": "25",
+        "ProductName": "Children's Book",
+        "ProductCategory": "Books",
+        "Price": 10,
+        "AvailableQuantity": 451
+    },
+    {
+        "ProductID": "26",
+        "ProductName": "Basketball",
+        "ProductCategory": "Sporting Goods",
+        "Price": 50,
+        "AvailableQuantity": 79
+    },
+    {
+        "ProductID": "27",
+        "ProductName": "Tennis Racket",
+        "ProductCategory": "Sporting Goods",
+        "Price": 99,
+        "AvailableQuantity": 451
+    },
+    {
+        "ProductID": "28",
+        "ProductName": "Football",
+        "ProductCategory": "Sporting Goods",
+        "Price": 43,
+        "AvailableQuantity": 146
+    },
+    {
+        "ProductID": "29",
+        "ProductName": "Helmet",
+        "ProductCategory": "Sporting Goods",
+        "Price": 41,
+        "AvailableQuantity": 42
+    },
+    {
+        "ProductID": "30",
+        "ProductName": "Gloves",
+        "ProductCategory": "Sporting Goods",
+        "Price": 32,
+        "AvailableQuantity": 416
+    }
+]

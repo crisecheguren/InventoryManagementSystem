@@ -1,0 +1,36 @@
+version: '3'
+
+# Define the services containers for the application.
+services:
+
+  web:
+    # Build the Docker image in the current directory.
+    build: .
+
+    # Map port 5000 of the host to port 5000 of the container.
+    ports:
+      - "5000:5000"
+
+    # Mount the current directory on the host to /app inside the container.
+    # This allows for real-time code changes without rebuilding the container.
+    volumes:
+      - .:/app
+
+    # Specify that the 'web' service depends on the 'db' service.
+    # This ensures 'db' is started before 'web'.
+    depends_on:
+      - db
+
+    # Set an environment variable inside the 'web' container.
+    # This provides the URI for connecting to the MongoDB instance.
+    environment:
+      - MONGO_URI=mongodb://db:27017/flaskdb
+
+  # Define the 'db' service.
+  db:
+    # Use the 'mongo' image from Docker Hub for this service.
+    image: mongo
+
+    # Map port 27017 of the host to port 27017 of the container.
+    ports:
+      - "27017:27017"
