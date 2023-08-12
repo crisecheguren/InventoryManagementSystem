@@ -56,10 +56,8 @@ class Database:
         except ServerSelectionTimeoutError:
             print("Server selection timeout error.")
         except OperationFailure as e:
-            # This exception can occur due to issues with the aggregation operation.
             print(f"Error during the aggregation operation: {e}")
         except Exception as e:
-            # Catching other unforeseen exceptions
             print(f"An unexpected error occurred: {e}")
         return []
     
