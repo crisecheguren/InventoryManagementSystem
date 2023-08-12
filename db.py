@@ -103,6 +103,7 @@ class Database:
         return None
 
     def get_all_products(self):
+        """Fetch all products from the products collection."""
         try:
             return list(self.mongo.db[PRODUCTS_COLLECTION].find())
         except ConnectionFailure:
