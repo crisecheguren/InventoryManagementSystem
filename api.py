@@ -11,7 +11,7 @@ db.load_sample_data()
 db.create_text_index()
 
 
-def product_id_to_string(product: Dict[str, Any]) -> None:
+def object_id_to_string(product: Dict[str, Any]) -> None:
     """
     MongoDB uses ObjectId for the "_id" field by default.
     Since ObjectId is not JSON serializable, we convert it to a string.
@@ -113,8 +113,8 @@ def get_product_analytics():
     least_stocked_product = db.get_product_by_quantity("lowest")
     print("Least stocked:", least_stocked_product)
     
-    product_id_to_string(most_stocked_product)
-    product_id_to_string(least_stocked_product)
+    object_id_to_string(most_stocked_product)
+    object_id_to_string(least_stocked_product)
 
     """Add the most and least stocked products to the response."""
     results.append({"most_stocked_product": most_stocked_product, "least_stocked_product": least_stocked_product})
@@ -128,7 +128,7 @@ def get_all_products():
     products = db.get_all_products()
     
     for product in products:
-        product_id_to_string(product)
+        object_id_to_string(product)
 
     return jsonify(products)
 
@@ -141,7 +141,7 @@ def get_product_by_id(id: str):
     if product is None:
         abort(HTTPStatus.NOT_FOUND)
 
-    product_id_to_string(product)
+    object_id_to_string(product)
     return jsonify(product)
 
 @app.route('/products/search', methods=['GET'])
@@ -152,7 +152,7 @@ def search_products():
         return jsonify({"message": "Query parameter 'q' is required"}), HTTPStatus.BAD_REQUEST
     search_results = db.search_products(query)
     for product in search_results:
-        product_id_to_string(product)
+        object_id_to_string(product)
     return jsonify(search_results)
 
 
